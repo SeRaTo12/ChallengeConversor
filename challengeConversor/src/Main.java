@@ -10,7 +10,7 @@ public class Main {
         int cantidad = 0;
         String url_str;
         while(opc != 7){
-            url_str = "https://v6.exchangerate-api.com/v6/b8098c934cbd5fbc87f490ff/pair/";
+            url_str = "https://v6.exchangerate-api.com/v6/<apikey>/pair/";
             System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             System.out.println("Te presento las conversiones disponibles al momento: ");
             System.out.println("""
